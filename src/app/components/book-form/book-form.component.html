@@ -1,0 +1,32 @@
+<section>
+    <h2>Add book form</h2>
+    
+    <form [formGroup]="bookForm">
+        <div>
+            <mat-form-field class="full-width">
+                <mat-label>Title</mat-label>
+                <input matInput type="text" formControlName="title" />
+            </mat-form-field>
+        </div>
+
+        <div>
+            <mat-form-field class="full-width">
+                <mat-label>Author</mat-label>
+                <input matInput type="text" formControlName="author" />
+            </mat-form-field>
+        </div>
+
+        <div>
+            <mat-form-field class="full-width">
+                <mat-label>Publication date</mat-label>
+                <input matInput [matDatepicker]="picker" type="text" formControlName="publicationDate" />
+                <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+            </mat-form-field>
+        </div>
+
+        <div>
+            <button mat-flat-button color="primary" type="button" (click)="addBook()">Add</button>
+        </div>
+    </form>
+</section>

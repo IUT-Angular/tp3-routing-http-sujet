@@ -18,6 +18,7 @@ A noter, que pour la création des composants il n'est pas nécessaire de géné
 
 1. https://angular.dev/guide/routing/common-router-tasks
 2. https://docs.angular.lat/guide/http
+3. https://angular.dev/guide/forms
 
 ## Bonnes pratiques
 
