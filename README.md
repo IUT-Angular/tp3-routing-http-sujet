@@ -9,7 +9,7 @@
     - /books => affichage de la liste des livres
     - /book/:id => affichage du détail du livre passé en paramètre (lien à afficher dans la liste)
     - /book/add => affichage du formulaire d'ajout d'un livre
-4. En plus du stub, charger la liste des livres via l'URL suivante : https://68d41db4214be68f8c6873a3.mockapi.io/books
+4. En plus du stub, charger la liste des livres via l'URL suivante : [https://68d41db4214be68f8c6873a3.mockapi.io/books](https://6a52aab578ecba6073e2d70d.mockapi.io/api/books)
 5. A la validation du formulaire, faire un ajout via l'API précédente.
 
 A noter, que pour la création des composants il n'est pas nécessaire de générer le fichier `.spec.ts` ni le fichier `.css` ou `.scss`
